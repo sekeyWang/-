@@ -1,0 +1,24 @@
+<view class="page">
+
+<view wx:if="{{1+1==2}}">
+
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="page__bd">
+    <view class="section">
+      <input type="text" placeholder="姓名" focus="true"/>
+    </view>
+    <view class="section">
+      <input type="text" placeholder="电话" focus="true"/>
+    </view>
+  </view>
+  <button class="loadData" type='primary' bindtap="loadData">注册</button>
+</view>
+
+<view wx:else>
+  hhh
+</view>
+
+</view>

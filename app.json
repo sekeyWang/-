@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/ask/ask",
+    "pages/modify/modify",
+    "pages/bond/bond",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "门牌管理",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/ask/ask",
+        "text": "查看状态",
+        "iconPath": "images/view.png",
+        "selectedIconPath": "images/view2.png",
+        "selectedColor": "#8ef6b2"
+      },
+      {
+        "pagePath": "pages/modify/modify",
+        "text": "修改状态",
+        "iconPath": "images/modify.png",
+        "selectedIconPath": "images/modify2.png"
+      },
+      {
+        "pagePath": "pages/bond/bond",
+        "text": "绑定",
+        "iconPath": "images/bond.png",
+        "selectedIconPath": "images/bond2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "绑定",
+        "iconPath": "images/bond.png",
+        "selectedIconPath": "images/bond2.png"
+      }
+
+      
+    ]
+  }
+}
